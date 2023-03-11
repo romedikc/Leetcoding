@@ -16,6 +16,8 @@ the resulting number 009 is considered to be just 9.
 So the updated array will look like [1, 3, 9, 10], which is strictly increasing.
 
 For numbers = [13, 31, 30], the output should be solution(numbers) = false.
+
+NOT SOLVED!
 """
 
 

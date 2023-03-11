@@ -10,6 +10,7 @@ than all instances (eg: removing 1 from the string al1b1c
 could result in albic or allbc but not abc ).
 Also note that digits are considered lexicographically smaller than letters.
 
+NOT ALL TEST CASES PASSED
 """
 
 
