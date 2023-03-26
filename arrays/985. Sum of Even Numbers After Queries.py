@@ -2,6 +2,7 @@ def sumEvenAfterQueries(nums: List[int], queries: List[List[int]]) -> List[int]:
     even_sum = sum(n for n in nums if n % 2 == 0)
     output = []
     for v, i in queries:
+        # check before adding a new value
         if nums[i] % 2 == 0:
             even_sum -= nums[i]
         nums[i] += v
